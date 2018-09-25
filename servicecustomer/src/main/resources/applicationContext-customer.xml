@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 报扫描-->
+    <context:component-scan base-package="com.hacker.dubbo.service.impl"></context:component-scan>
+
+     <!-- 1. 指定服务名 -->
+    <dubbo:application name="dubbo-service-customer"></dubbo:application>
+
+    <!--
+        2和3 其实就是在注册中心订阅服务
+     -->
+    <!-- 2.指定注册中心的地址  -->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
+
+    <!--
+         3.声明要调用的远程暴露的接口 （生成远程服务代理）
+         id: 指定在spring容器中的名字
+     -->
+    <dubbo:reference interface="com.hacker.dubbo.service.interfaces.UserService" id="userService"></dubbo:reference>
+
+    <!-- 配置监控中心 -->
+    <dubbo:monitor protocol="registry"></dubbo:monitor>
+</beans>

@@ -1,0 +1,83 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework:spring-context:5.0.6.RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE-sources.jar!/" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/gradle/jdiff" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-aop/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-aop/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-aspects/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-aspects/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-beans/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-beans/src/main/java/org/springframework/beans/factory/xml" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-beans/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-context-indexer/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-context-indexer/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-context-support/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-context-support/src/main/java/org/springframework/mail/javamail" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-context-support/src/main/java/org/springframework/ui/freemarker" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-context-support/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-context/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-context/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-core/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-core/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-expression/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-expression/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-instrument/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-jcl/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-jdbc/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-jdbc/src/main/java/org/springframework/jdbc/core/simple" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-jdbc/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-jms/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-jms/src/main/java/org/springframework/jms/core/support" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-jms/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-messaging/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-messaging/src/main/java/org/springframework/messaging/core" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-messaging/src/main/java/org/springframework/messaging/tcp" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-messaging/src/main/java/org/springframework/messaging/tcp/reactor" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-messaging/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-orm/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-orm/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-oxm/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-oxm/src/main/java/org/springframework/oxm/castor" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-oxm/src/main/java/org/springframework/oxm/config" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-oxm/src/main/java/org/springframework/oxm/jaxb" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-oxm/src/main/java/org/springframework/oxm/jibx" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-oxm/src/main/java/org/springframework/oxm/mime" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-oxm/src/main/java/org/springframework/oxm/support" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-oxm/src/main/java/org/springframework/oxm/xstream" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-oxm/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-test/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-test/src/main/java/org/springframework/mock/env" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-test/src/main/java/org/springframework/mock/web/reactive/function/server" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-test/src/main/java/org/springframework/mock/web/server" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-test/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-tx/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-tx/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-web/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-web/src/main/java/org/springframework/web/bind/support" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-web/src/main/java/org/springframework/web/jsf" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-web/src/main/java/org/springframework/web/jsf/el" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-web/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-webflux/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-webflux/src/main/java/org/springframework/web/reactive/accept" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-webflux/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-webmvc/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-webmvc/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-websocket/src/main/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-websocket/src/main/java/org/springframework/web/socket/client" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-websocket/src/main/java/org/springframework/web/socket/client/jetty" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-websocket/src/main/java/org/springframework/web/socket/client/standard" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-websocket/src/main/java/org/springframework/web/socket/config" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/spring-websocket/src/test/java" />
+      <root url="jar://D:/openSource/spring-framework-master.zip!/spring-framework-master/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

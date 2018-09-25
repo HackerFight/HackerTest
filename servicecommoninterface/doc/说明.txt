@@ -1,0 +1,5 @@
+﻿
+   官网：http://dubbo.apache.org
+
+   我这个dubbo服务中一共有 3个工程（module） ，servicecommoninterface 他是根据dubbo的最佳实现提取出来的接口，
+   最佳实践中说：把接口提取出来放到单独的api中，每一个服务来写自己的实现

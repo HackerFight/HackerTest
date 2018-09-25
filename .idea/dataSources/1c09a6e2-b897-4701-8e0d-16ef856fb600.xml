@@ -5,796 +5,1226 @@
     <schema id="2" parent="1" name="account3.2">
       <Current>1</Current>
     </schema>
-    <schema id="3" parent="1" name="3761protocol"/>
-    <schema id="4" parent="1" name="3761protocol_back"/>
-    <schema id="5" parent="1" name="account"/>
-    <schema id="6" parent="1" name="account2.4"/>
-    <schema id="7" parent="1" name="account2018"/>
-    <schema id="8" parent="1" name="account3-1"/>
-    <schema id="9" parent="1" name="account3-2"/>
-    <schema id="10" parent="1" name="account3-nx"/>
-    <schema id="11" parent="1" name="account_service"/>
-    <schema id="12" parent="1" name="account_service3"/>
-    <schema id="13" parent="1" name="account_service_3_move"/>
-    <schema id="14" parent="1" name="actionmanager"/>
-    <schema id="15" parent="1" name="address"/>
-    <schema id="16" parent="1" name="address2.4"/>
-    <schema id="17" parent="1" name="alarm3"/>
-    <schema id="18" parent="1" name="alarm3.2"/>
-    <schema id="19" parent="1" name="alarm3.2-test"/>
-    <schema id="20" parent="1" name="alarmDataTest"/>
-    <schema id="21" parent="1" name="alarm_event"/>
-    <schema id="22" parent="1" name="alarm_event2"/>
-    <schema id="23" parent="1" name="alarm_event3_2"/>
-    <schema id="24" parent="1" name="assaccount2018"/>
-    <schema id="25" parent="1" name="asset3.2"/>
-    <schema id="26" parent="1" name="assetaccount"/>
-    <schema id="27" parent="1" name="assetaccount-nx"/>
-    <schema id="28" parent="1" name="assetaccount2"/>
-    <schema id="29" parent="1" name="assetaccount2.1"/>
-    <schema id="30" parent="1" name="assetaccount2.1.1"/>
-    <schema id="31" parent="1" name="assetaccount2.1.2"/>
-    <schema id="32" parent="1" name="assetaccount2.1.3"/>
-    <schema id="33" parent="1" name="assetaccount2.2"/>
-    <schema id="34" parent="1" name="assetaccount2.4"/>
-    <schema id="35" parent="1" name="assetaccount2.4_old"/>
-    <schema id="36" parent="1" name="assetaccount2_core"/>
-    <schema id="37" parent="1" name="assetaccount3"/>
-    <schema id="38" parent="1" name="assetaccount3.2"/>
-    <schema id="39" parent="1" name="assetaccount4"/>
-    <schema id="40" parent="1" name="assetaccount5"/>
-    <schema id="41" parent="1" name="assetaccount_mc"/>
-    <schema id="42" parent="1" name="assetaccount_sc4"/>
-    <schema id="43" parent="1" name="authority_3.2"/>
-    <schema id="44" parent="1" name="automation_meter_reading"/>
-    <schema id="45" parent="1" name="business_customization"/>
-    <schema id="46" parent="1" name="company"/>
-    <schema id="47" parent="1" name="config"/>
-    <schema id="48" parent="1" name="constant3"/>
-    <schema id="49" parent="1" name="constant3-2"/>
-    <schema id="50" parent="1" name="content"/>
-    <schema id="51" parent="1" name="customer"/>
-    <schema id="52" parent="1" name="customer2.2"/>
-    <schema id="53" parent="1" name="customer2.4"/>
-    <schema id="54" parent="1" name="customer2.4.bak"/>
-    <schema id="55" parent="1" name="customer2018"/>
-    <schema id="56" parent="1" name="customer3"/>
-    <schema id="57" parent="1" name="customer3-1"/>
-    <schema id="58" parent="1" name="customer3-2"/>
-    <schema id="59" parent="1" name="customer3-nx"/>
-    <schema id="60" parent="1" name="customer3.2"/>
-    <schema id="61" parent="1" name="custorm3.2-product"/>
-    <schema id="62" parent="1" name="datalist"/>
-    <schema id="63" parent="1" name="db1"/>
-    <schema id="64" parent="1" name="db2"/>
-    <schema id="65" parent="1" name="db3"/>
-    <schema id="66" parent="1" name="device"/>
-    <schema id="67" parent="1" name="efficiency3"/>
-    <schema id="68" parent="1" name="electricity_safety3.2"/>
-    <schema id="69" parent="1" name="energy_management"/>
-    <schema id="70" parent="1" name="enviromental_product"/>
-    <schema id="71" parent="1" name="environmental2.2"/>
-    <schema id="72" parent="1" name="environmental3.2">
+    <schema id="3" parent="1" name="account"/>
+    <schema id="4" parent="1" name="account2.4"/>
+    <schema id="5" parent="1" name="account2018"/>
+    <schema id="6" parent="1" name="account3-1"/>
+    <schema id="7" parent="1" name="account3-2"/>
+    <schema id="8" parent="1" name="account3-nx"/>
+    <schema id="9" parent="1" name="account_service"/>
+    <schema id="10" parent="1" name="account_service3"/>
+    <schema id="11" parent="1" name="account_service_3_move"/>
+    <schema id="12" parent="1" name="actionmanager"/>
+    <schema id="13" parent="1" name="address"/>
+    <schema id="14" parent="1" name="address2.4"/>
+    <schema id="15" parent="1" name="alarm3"/>
+    <schema id="16" parent="1" name="alarm3.2"/>
+    <schema id="17" parent="1" name="alarm3.2-test"/>
+    <schema id="18" parent="1" name="alarmDataTest"/>
+    <schema id="19" parent="1" name="alarm_event"/>
+    <schema id="20" parent="1" name="alarm_event2"/>
+    <schema id="21" parent="1" name="alarm_event3_2"/>
+    <schema id="22" parent="1" name="assaccount2018"/>
+    <schema id="23" parent="1" name="asset3.2"/>
+    <schema id="24" parent="1" name="assetaccount"/>
+    <schema id="25" parent="1" name="assetaccount-nx"/>
+    <schema id="26" parent="1" name="assetaccount2"/>
+    <schema id="27" parent="1" name="assetaccount2.1"/>
+    <schema id="28" parent="1" name="assetaccount2.1.1"/>
+    <schema id="29" parent="1" name="assetaccount2.1.2"/>
+    <schema id="30" parent="1" name="assetaccount2.1.3"/>
+    <schema id="31" parent="1" name="assetaccount2.2"/>
+    <schema id="32" parent="1" name="assetaccount2.4"/>
+    <schema id="33" parent="1" name="assetaccount2.4_old"/>
+    <schema id="34" parent="1" name="assetaccount2_core"/>
+    <schema id="35" parent="1" name="assetaccount3"/>
+    <schema id="36" parent="1" name="assetaccount3.2"/>
+    <schema id="37" parent="1" name="assetaccount4"/>
+    <schema id="38" parent="1" name="assetaccount5"/>
+    <schema id="39" parent="1" name="assetaccount_mc"/>
+    <schema id="40" parent="1" name="assetaccount_sc4"/>
+    <schema id="41" parent="1" name="authority_3.2"/>
+    <schema id="42" parent="1" name="automation_meter_reading"/>
+    <schema id="43" parent="1" name="business_customization"/>
+    <schema id="44" parent="1" name="company"/>
+    <schema id="45" parent="1" name="config"/>
+    <schema id="46" parent="1" name="constant3"/>
+    <schema id="47" parent="1" name="constant3-2"/>
+    <schema id="48" parent="1" name="content"/>
+    <schema id="49" parent="1" name="customer"/>
+    <schema id="50" parent="1" name="customer2.2"/>
+    <schema id="51" parent="1" name="customer2.4"/>
+    <schema id="52" parent="1" name="customer2.4.bak"/>
+    <schema id="53" parent="1" name="customer2018"/>
+    <schema id="54" parent="1" name="customer3"/>
+    <schema id="55" parent="1" name="customer3-1"/>
+    <schema id="56" parent="1" name="customer3-2"/>
+    <schema id="57" parent="1" name="customer3-nx"/>
+    <schema id="58" parent="1" name="customer3.2"/>
+    <schema id="59" parent="1" name="custorm3.2-product"/>
+    <schema id="60" parent="1" name="datalist"/>
+    <schema id="61" parent="1" name="db1"/>
+    <schema id="62" parent="1" name="db2"/>
+    <schema id="63" parent="1" name="db3"/>
+    <schema id="64" parent="1" name="device"/>
+    <schema id="65" parent="1" name="efficiency3"/>
+    <schema id="66" parent="1" name="electricity_safety3.2"/>
+    <schema id="67" parent="1" name="energy_management"/>
+    <schema id="68" parent="1" name="enviromental_product"/>
+    <schema id="69" parent="1" name="environmental2.2"/>
+    <schema id="70" parent="1" name="environmental3.2">
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
-    <schema id="73" parent="1" name="epay"/>
-    <schema id="74" parent="1" name="eventmanager"/>
-    <schema id="75" parent="1" name="fee_3.2"/>
-    <schema id="76" parent="1" name="flow_api_db"/>
-    <schema id="77" parent="1" name="flow_cc_db"/>
-    <schema id="78" parent="1" name="fundmanager"/>
-    <schema id="79" parent="1" name="graphicModel3"/>
-    <schema id="80" parent="1" name="graphics3_2"/>
-    <schema id="81" parent="1" name="graphics_v3.2.1_beta"/>
-    <schema id="82" parent="1" name="graphics_v3.2.1_dev"/>
-    <schema id="83" parent="1" name="hlhtest"/>
-    <schema id="84" parent="1" name="imu_remote_update"/>
-    <schema id="85" parent="1" name="information_schema"/>
-    <schema id="86" parent="1" name="IoTPlatform_CC"/>
-    <schema id="87" parent="1" name="IoTPlatform_CC_temporary"/>
-    <schema id="88" parent="1" name="IoTPlatorm_cm"/>
-    <schema id="89" parent="1" name="Iot_DataRemove"/>
-    <schema id="90" parent="1" name="iot_platform"/>
-    <schema id="91" parent="1" name="management3761_v3.2.0_beta"/>
-    <schema id="92" parent="1" name="management3761_v3.2.1_beta"/>
-    <schema id="93" parent="1" name="management3761_v3.2.1_dev"/>
-    <schema id="94" parent="1" name="metric"/>
-    <schema id="95" parent="1" name="metric2"/>
-    <schema id="96" parent="1" name="metric2.4"/>
-    <schema id="97" parent="1" name="metric3"/>
-    <schema id="98" parent="1" name="metric3.2"/>
-    <schema id="99" parent="1" name="mofeis_db"/>
-    <schema id="100" parent="1" name="mycollab"/>
-    <schema id="101" parent="1" name="mysql"/>
-    <schema id="102" parent="1" name="ndb_2_fs"/>
-    <schema id="103" parent="1" name="notification"/>
-    <schema id="104" parent="1" name="notification2"/>
-    <schema id="105" parent="1" name="openapi"/>
-    <schema id="106" parent="1" name="openapi2.4"/>
-    <schema id="107" parent="1" name="openapi3"/>
-    <schema id="108" parent="1" name="openapi3.1"/>
-    <schema id="109" parent="1" name="openapi3.2"/>
-    <schema id="110" parent="1" name="openapi_test"/>
-    <schema id="111" parent="1" name="performance_schema"/>
-    <schema id="112" parent="1" name="photovoltaic_energy3.2"/>
-    <schema id="113" parent="1" name="point3"/>
-    <schema id="114" parent="1" name="point3-2"/>
-    <schema id="115" parent="1" name="power_alarm"/>
-    <schema id="116" parent="1" name="pricing3"/>
-    <schema id="117" parent="1" name="primary_equipment3"/>
-    <schema id="118" parent="1" name="primary_equipment3_2"/>
-    <schema id="119" parent="1" name="repair_task"/>
-    <schema id="120" parent="1" name="repair_task3.2"/>
-    <schema id="121" parent="1" name="report"/>
-    <schema id="122" parent="1" name="right_service"/>
-    <schema id="123" parent="1" name="right_service3"/>
-    <schema id="124" parent="1" name="right_service3-1"/>
-    <schema id="125" parent="1" name="right_service3-2"/>
-    <schema id="126" parent="1" name="secondaryEquipment_v3.2.0_beta"/>
-    <schema id="127" parent="1" name="secondaryEquipment_v3.2.0_dev"/>
-    <schema id="128" parent="1" name="secondaryEquipment_v3.2.1_beta"/>
-    <schema id="129" parent="1" name="secondaryEquipment_v3.2.1_dev"/>
-    <schema id="130" parent="1" name="secondaryEquipment_v3.2.1_dev_back"/>
-    <schema id="131" parent="1" name="springboot"/>
-    <schema id="132" parent="1" name="stability"/>
-    <schema id="133" parent="1" name="stability2.4"/>
-    <schema id="134" parent="1" name="storedEnergy3.2"/>
-    <schema id="135" parent="1" name="sys"/>
-    <schema id="136" parent="1" name="tempassetaccount"/>
-    <schema id="137" parent="1" name="uploaddata2.2"/>
-    <schema id="138" parent="1" name="uploaddata3.1"/>
-    <schema id="139" parent="1" name="uploaddata3.2"/>
-    <schema id="140" parent="1" name="uploaddata4.0"/>
-    <schema id="141" parent="1" name="userprofile3"/>
-    <schema id="142" parent="1" name="us_gis"/>
-    <schema id="143" parent="1" name="website"/>
-    <schema id="144" parent="1" name="zheng"/>
-    <schema id="145" parent="1" name="zhongheng"/>
-    <table id="146" parent="72" name="t_ep_alarm_object"/>
-    <table id="147" parent="72" name="t_ep_alarm_stat_report"/>
-    <table id="148" parent="72" name="t_ep_company_access_stat"/>
-    <table id="149" parent="72" name="t_ep_device"/>
-    <table id="150" parent="72" name="t_ep_device_bak"/>
-    <table id="151" parent="72" name="t_ep_optimize_device"/>
-    <table id="152" parent="72" name="t_ep_patrol_record">
+    <schema id="71" parent="1" name="epay"/>
+    <schema id="72" parent="1" name="eventmanager"/>
+    <schema id="73" parent="1" name="fee_3.2"/>
+    <schema id="74" parent="1" name="flow_api_db"/>
+    <schema id="75" parent="1" name="flow_cc_db"/>
+    <schema id="76" parent="1" name="fundmanager"/>
+    <schema id="77" parent="1" name="graphicModel3"/>
+    <schema id="78" parent="1" name="graphics3_2"/>
+    <schema id="79" parent="1" name="graphics_v3.2.1_beta"/>
+    <schema id="80" parent="1" name="graphics_v3.2.1_dev"/>
+    <schema id="81" parent="1" name="hlhtest"/>
+    <schema id="82" parent="1" name="imu_remote_update"/>
+    <schema id="83" parent="1" name="information_schema"/>
+    <schema id="84" parent="1" name="IoTPlatform_CC"/>
+    <schema id="85" parent="1" name="IoTPlatform_CC_temporary"/>
+    <schema id="86" parent="1" name="IoTPlatorm_cm"/>
+    <schema id="87" parent="1" name="Iot_DataRemove"/>
+    <schema id="88" parent="1" name="iot_platform"/>
+    <schema id="89" parent="1" name="management3761_v3.2.0_beta"/>
+    <schema id="90" parent="1" name="management3761_v3.2.1_beta"/>
+    <schema id="91" parent="1" name="management3761_v3.2.1_dev"/>
+    <schema id="92" parent="1" name="metric"/>
+    <schema id="93" parent="1" name="metric2"/>
+    <schema id="94" parent="1" name="metric2.4"/>
+    <schema id="95" parent="1" name="metric3"/>
+    <schema id="96" parent="1" name="metric3.2"/>
+    <schema id="97" parent="1" name="mofeis_db"/>
+    <schema id="98" parent="1" name="mycollab"/>
+    <schema id="99" parent="1" name="mysql"/>
+    <schema id="100" parent="1" name="ndb_2_fs"/>
+    <schema id="101" parent="1" name="notification"/>
+    <schema id="102" parent="1" name="notification2"/>
+    <schema id="103" parent="1" name="openapi"/>
+    <schema id="104" parent="1" name="openapi2.4"/>
+    <schema id="105" parent="1" name="openapi3"/>
+    <schema id="106" parent="1" name="openapi3.1"/>
+    <schema id="107" parent="1" name="openapi3.2"/>
+    <schema id="108" parent="1" name="openapi_test"/>
+    <schema id="109" parent="1" name="performance_schema"/>
+    <schema id="110" parent="1" name="photovoltaic_energy3.2"/>
+    <schema id="111" parent="1" name="point3"/>
+    <schema id="112" parent="1" name="point3-2"/>
+    <schema id="113" parent="1" name="power_alarm"/>
+    <schema id="114" parent="1" name="pricing3"/>
+    <schema id="115" parent="1" name="primary_equipment3"/>
+    <schema id="116" parent="1" name="primary_equipment3_2"/>
+    <schema id="117" parent="1" name="repair_task"/>
+    <schema id="118" parent="1" name="repair_task3.2"/>
+    <schema id="119" parent="1" name="report"/>
+    <schema id="120" parent="1" name="right_service"/>
+    <schema id="121" parent="1" name="right_service3"/>
+    <schema id="122" parent="1" name="right_service3-1"/>
+    <schema id="123" parent="1" name="right_service3-2"/>
+    <schema id="124" parent="1" name="secondaryEquipment_v3.2.0_beta"/>
+    <schema id="125" parent="1" name="secondaryEquipment_v3.2.0_dev"/>
+    <schema id="126" parent="1" name="secondaryEquipment_v3.2.1_beta"/>
+    <schema id="127" parent="1" name="secondaryEquipment_v3.2.1_dev"/>
+    <schema id="128" parent="1" name="springboot"/>
+    <schema id="129" parent="1" name="stability"/>
+    <schema id="130" parent="1" name="stability2.4"/>
+    <schema id="131" parent="1" name="storedEnergy3.2"/>
+    <schema id="132" parent="1" name="sys"/>
+    <schema id="133" parent="1" name="tempassetaccount"/>
+    <schema id="134" parent="1" name="uploaddata2.2"/>
+    <schema id="135" parent="1" name="uploaddata3.1"/>
+    <schema id="136" parent="1" name="uploaddata3.2"/>
+    <schema id="137" parent="1" name="uploaddata4.0"/>
+    <schema id="138" parent="1" name="userprofile3"/>
+    <schema id="139" parent="1" name="us_gis"/>
+    <schema id="140" parent="1" name="website"/>
+    <schema id="141" parent="1" name="zheng"/>
+    <schema id="142" parent="1" name="zhongheng"/>
+    <schema id="143" parent="1" name="secondaryEquipment_v3.2.1_convert"/>
+    <table id="144" parent="70" name="account">
+      <Comment>帐号</Comment>
+    </table>
+    <table id="145" parent="70" name="account_repet"/>
+    <table id="146" parent="70" name="t_customer_employee">
+      <Comment>员工表</Comment>
+    </table>
+    <table id="147" parent="70" name="t_employee_repet"/>
+    <table id="148" parent="70" name="t_ep_alarm_object"/>
+    <table id="149" parent="70" name="t_ep_alarm_stat_report"/>
+    <table id="150" parent="70" name="t_ep_company_access_stat"/>
+    <table id="151" parent="70" name="t_ep_device"/>
+    <table id="152" parent="70" name="t_ep_device_bak"/>
+    <table id="153" parent="70" name="t_ep_optimize_device"/>
+    <table id="154" parent="70" name="t_ep_patrol_record">
       <Comment>环保巡查记录</Comment>
     </table>
-    <table id="153" parent="72" name="t_ep_pollution_device"/>
-    <table id="154" parent="72" name="t_ep_pollution_source"/>
-    <table id="155" parent="72" name="t_ep_pollution_source_bak"/>
-    <column id="156" parent="146" name="id">
+    <table id="155" parent="70" name="t_ep_pollution_device"/>
+    <table id="156" parent="70" name="t_ep_pollution_source"/>
+    <table id="157" parent="70" name="t_ep_pollution_source_bak"/>
+    <column id="158" parent="144" name="ID">
+      <Position>1</Position>
+      <Comment>ID</Comment>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="159" parent="144" name="ACCOUNT_ID">
+      <Position>2</Position>
+      <Comment>ID</Comment>
+      <DataType>varchar(256)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="160" parent="144" name="USER">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="161" parent="144" name="PASSWORD">
+      <Position>4</Position>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="162" parent="144" name="STATUS">
+      <Position>5</Position>
+      <DataType>varchar(2)|0</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="163" parent="144" name="PARENT_ID">
+      <Position>6</Position>
+      <Comment>一级帐号的guid（为0则为一级帐号）</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="164" parent="144" name="CREATOR">
+      <Position>7</Position>
+      <Comment>创建者</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="165" parent="144" name="CREATE_TIME">
+      <Position>8</Position>
+      <Comment>创建时间</Comment>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="166" parent="144" name="MODIFIER">
+      <Position>9</Position>
+      <Comment>修改者</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="167" parent="144" name="MODIFY_TIME">
+      <Position>10</Position>
+      <Comment> 修改时间</Comment>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="168" parent="144" name="SYS_RECORD_STATUS">
+      <Position>11</Position>
+      <Comment>数据状态（01：表示有效；00：表示删除）</Comment>
+      <DataType>varchar(2)|0</DataType>
+      <DefaultExpression>&apos;01&apos;</DefaultExpression>
+    </column>
+    <index id="169" parent="144" name="INDEX_ACCOUNT_ID">
+      <ColNames>USER</ColNames>
+    </index>
+    <index id="170" parent="144" name="INDEX_USER">
+      <ColNames>USER</ColNames>
+    </index>
+    <key id="171" parent="144" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="172" parent="145" name="ID">
+      <Position>1</Position>
+      <Comment>ID</Comment>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="173" parent="145" name="ACCOUNT_ID">
+      <Position>2</Position>
+      <Comment>ID</Comment>
+      <DataType>varchar(256)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="174" parent="145" name="USER">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="175" parent="145" name="PASSWORD">
+      <Position>4</Position>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="176" parent="145" name="STATUS">
+      <Position>5</Position>
+      <DataType>varchar(2)|0</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="177" parent="145" name="PARENT_ID">
+      <Position>6</Position>
+      <Comment>一级帐号的guid（为0则为一级帐号）</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="178" parent="145" name="CREATOR">
+      <Position>7</Position>
+      <Comment>创建者</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="179" parent="145" name="CREATE_TIME">
+      <Position>8</Position>
+      <Comment>创建时间</Comment>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="180" parent="145" name="MODIFIER">
+      <Position>9</Position>
+      <Comment>修改者</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="181" parent="145" name="MODIFY_TIME">
+      <Position>10</Position>
+      <Comment> 修改时间</Comment>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="182" parent="145" name="SYS_RECORD_STATUS">
+      <Position>11</Position>
+      <Comment>数据状态（01：表示有效；00：表示删除）</Comment>
+      <DataType>varchar(2)|0</DataType>
+      <DefaultExpression>&apos;01&apos;</DefaultExpression>
+    </column>
+    <column id="183" parent="146" name="customer_id">
+      <Position>1</Position>
+      <Comment>客户编码</Comment>
+      <DataType>varchar(16)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="184" parent="146" name="department_id">
+      <Position>2</Position>
+      <Comment>部门编码</Comment>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="185" parent="146" name="employee_id">
+      <Position>3</Position>
+      <Comment>企业人员的编码</Comment>
+      <DataType>varchar(16)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="186" parent="146" name="name">
+      <Position>4</Position>
+      <Comment>人员姓名</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="187" parent="146" name="sex">
+      <Position>5</Position>
+      <Comment>性别，1 男、2 女</Comment>
+      <DataType>char(2)|0</DataType>
+    </column>
+    <column id="188" parent="146" name="birthday">
+      <Position>6</Position>
+      <Comment>出生日期，格式为XXXX-XX-XX</Comment>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="189" parent="146" name="position">
+      <Position>7</Position>
+      <Comment>岗位</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="190" parent="146" name="cellphone">
+      <Position>8</Position>
+      <Comment>手机号码</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="191" parent="146" name="telphone">
+      <Position>9</Position>
+      <Comment>电话号码</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="192" parent="146" name="email">
+      <Position>10</Position>
+      <Comment>电子邮箱</Comment>
+      <DataType>varchar(40)|0</DataType>
+    </column>
+    <column id="193" parent="146" name="wechat">
+      <Position>11</Position>
+      <Comment>微信号</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="194" parent="146" name="postcode">
+      <Position>12</Position>
+      <DataType>varchar(6)|0</DataType>
+    </column>
+    <column id="195" parent="146" name="address">
+      <Position>13</Position>
+      <Comment>地址的ID</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="196" parent="146" name="contact_type">
+      <Position>14</Position>
+      <Comment>联系人类型，1 用电联系人、2 帐务联系人</Comment>
+      <DataType>char(2)|0</DataType>
+    </column>
+    <column id="197" parent="146" name="account_id">
+      <Position>15</Position>
+      <Comment>平台账号的ID</Comment>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="198" parent="146" name="remark">
+      <Position>16</Position>
+      <Comment>人员的特殊说明</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="199" parent="146" name="icon">
+      <Position>17</Position>
+      <Comment>头像地址</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="200" parent="146" name="id_number">
+      <Position>18</Position>
+      <Comment>身份证号码</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="201" parent="146" name="job_title">
+      <Position>19</Position>
+      <Comment>职位</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="202" parent="146" name="sys_creator">
+      <Position>20</Position>
+      <Comment>创建者</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="203" parent="146" name="sys_update_time">
+      <Position>21</Position>
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="204" parent="146" name="sys_updater">
+      <Position>22</Position>
+      <Comment>更新者</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="205" parent="146" name="sys_deleted">
+      <Position>23</Position>
+      <Comment>是否删除，0（default）/1：未删除/删除</Comment>
+      <DataType>tinyint(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="206" parent="146" name="sys_hash">
+      <Position>24</Position>
+      <Comment>数据哈希值，用于同步和更新校验</Comment>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="207" parent="146" name="sys_avail_data">
+      <Position>25</Position>
+      <Comment>本记录是否用于可用性检测，0（default）/1：否/是</Comment>
+      <DataType>tinyint(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="208" parent="146" name="sys_create_time">
+      <Position>26</Position>
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="209" parent="146" name="index_account_id">
+      <ColNames>account_id</ColNames>
+    </index>
+    <index id="210" parent="146" name="index_customer_id">
+      <ColNames>customer_id</ColNames>
+    </index>
+    <key id="211" parent="146" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>employee_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="212" parent="147" name="customer_id">
+      <Position>1</Position>
+      <Comment>客户编码</Comment>
+      <DataType>varchar(16)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="213" parent="147" name="department_id">
+      <Position>2</Position>
+      <Comment>部门编码</Comment>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="214" parent="147" name="employee_id">
+      <Position>3</Position>
+      <Comment>企业人员的编码</Comment>
+      <DataType>varchar(16)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="215" parent="147" name="name">
+      <Position>4</Position>
+      <Comment>人员姓名</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="216" parent="147" name="sex">
+      <Position>5</Position>
+      <Comment>性别，1 男、2 女</Comment>
+      <DataType>char(2)|0</DataType>
+    </column>
+    <column id="217" parent="147" name="birthday">
+      <Position>6</Position>
+      <Comment>出生日期，格式为XXXX-XX-XX</Comment>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="218" parent="147" name="position">
+      <Position>7</Position>
+      <Comment>岗位</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="219" parent="147" name="cellphone">
+      <Position>8</Position>
+      <Comment>手机号码</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="220" parent="147" name="telphone">
+      <Position>9</Position>
+      <Comment>电话号码</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="221" parent="147" name="email">
+      <Position>10</Position>
+      <Comment>电子邮箱</Comment>
+      <DataType>varchar(40)|0</DataType>
+    </column>
+    <column id="222" parent="147" name="wechat">
+      <Position>11</Position>
+      <Comment>微信号</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="223" parent="147" name="postcode">
+      <Position>12</Position>
+      <DataType>varchar(6)|0</DataType>
+    </column>
+    <column id="224" parent="147" name="address">
+      <Position>13</Position>
+      <Comment>地址的ID</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="225" parent="147" name="contact_type">
+      <Position>14</Position>
+      <Comment>联系人类型，1 用电联系人、2 帐务联系人</Comment>
+      <DataType>char(2)|0</DataType>
+    </column>
+    <column id="226" parent="147" name="account_id">
+      <Position>15</Position>
+      <Comment>平台账号的ID</Comment>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="227" parent="147" name="remark">
+      <Position>16</Position>
+      <Comment>人员的特殊说明</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="228" parent="147" name="icon">
+      <Position>17</Position>
+      <Comment>头像地址</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="229" parent="147" name="id_number">
+      <Position>18</Position>
+      <Comment>身份证号码</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="230" parent="147" name="job_title">
+      <Position>19</Position>
+      <Comment>职位</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="231" parent="147" name="sys_creator">
+      <Position>20</Position>
+      <Comment>创建者</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="232" parent="147" name="sys_update_time">
+      <Position>21</Position>
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="233" parent="147" name="sys_updater">
+      <Position>22</Position>
+      <Comment>更新者</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="234" parent="147" name="sys_deleted">
+      <Position>23</Position>
+      <Comment>是否删除，0（default）/1：未删除/删除</Comment>
+      <DataType>tinyint(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="235" parent="147" name="sys_hash">
+      <Position>24</Position>
+      <Comment>数据哈希值，用于同步和更新校验</Comment>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="236" parent="147" name="sys_avail_data">
+      <Position>25</Position>
+      <Comment>本记录是否用于可用性检测，0（default）/1：否/是</Comment>
+      <DataType>tinyint(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="237" parent="147" name="sys_create_time">
+      <Position>26</Position>
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="238" parent="148" name="id">
       <Position>1</Position>
       <DataType>varchar(16)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="157" parent="146" name="pollution_source_id">
+    <column id="239" parent="148" name="pollution_source_id">
       <Position>2</Position>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="158" parent="146" name="monitored_object_id">
+    <column id="240" parent="148" name="monitored_object_id">
       <Position>3</Position>
       <DataType>varchar(16)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="159" parent="146" name="device_ids">
+    <column id="241" parent="148" name="device_ids">
       <Position>4</Position>
       <DataType>varchar(256)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="160" parent="146" name="max_power">
+    <column id="242" parent="148" name="max_power">
       <Position>5</Position>
       <DataType>decimal(12,4)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="161" parent="146" name="optimize_rule_str">
+    <column id="243" parent="148" name="optimize_rule_str">
       <Position>6</Position>
       <DataType>varchar(4000)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="162" parent="146" name="alarm_continue_time">
+    <column id="244" parent="148" name="alarm_continue_time">
       <Position>7</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="163" parent="146" name="alarm_instance_id">
+    <column id="245" parent="148" name="alarm_instance_id">
       <Position>8</Position>
       <Comment>告警实例id</Comment>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="164" parent="146" name="push_rule_id">
+    <column id="246" parent="148" name="push_rule_id">
       <Position>9</Position>
       <Comment>推送规则id</Comment>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="165" parent="146" name="company_id">
+    <column id="247" parent="148" name="company_id">
       <Position>10</Position>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="166" parent="146" name="sys_update_time">
+    <column id="248" parent="148" name="sys_update_time">
       <Position>11</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="167" parent="146" name="sys_updater">
+    <column id="249" parent="148" name="sys_updater">
       <Position>12</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="168" parent="146" name="sys_deleted">
+    <column id="250" parent="148" name="sys_deleted">
       <Position>13</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="169" parent="146" name="sys_hash">
+    <column id="251" parent="148" name="sys_hash">
       <Position>14</Position>
       <DataType>varchar(64)|0</DataType>
     </column>
-    <column id="170" parent="146" name="sys_avail_data">
+    <column id="252" parent="148" name="sys_avail_data">
       <Position>15</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="171" parent="146" name="sys_create_time">
+    <column id="253" parent="148" name="sys_create_time">
       <Position>16</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="172" parent="146" name="sys_creator">
+    <column id="254" parent="148" name="sys_creator">
       <Position>17</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="173" parent="146" name="PRIMARY">
+    <key id="255" parent="148" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="174" parent="147" name="id">
+    <column id="256" parent="149" name="id">
       <Position>1</Position>
       <DataType>varchar(16)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="175" parent="147" name="stat_type">
+    <column id="257" parent="149" name="stat_type">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="176" parent="147" name="stat_time">
+    <column id="258" parent="149" name="stat_time">
       <Position>3</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="177" parent="147" name="area_code">
+    <column id="259" parent="149" name="area_code">
       <Position>4</Position>
       <DataType>varchar(10)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="178" parent="147" name="report_name">
+    <column id="260" parent="149" name="report_name">
       <Position>5</Position>
       <DataType>varchar(128)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="179" parent="147" name="uri">
+    <column id="261" parent="149" name="uri">
       <Position>6</Position>
       <DataType>varchar(512)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="180" parent="147" name="sys_create_time">
+    <column id="262" parent="149" name="sys_create_time">
       <Position>7</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="181" parent="147" name="sys_creator">
+    <column id="263" parent="149" name="sys_creator">
       <Position>8</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="182" parent="147" name="sys_update_time">
+    <column id="264" parent="149" name="sys_update_time">
       <Position>9</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="183" parent="147" name="sys_updater">
+    <column id="265" parent="149" name="sys_updater">
       <Position>10</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="184" parent="147" name="sys_deleted">
+    <column id="266" parent="149" name="sys_deleted">
       <Position>11</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="185" parent="147" name="sys_hash">
+    <column id="267" parent="149" name="sys_hash">
       <Position>12</Position>
       <DataType>varchar(64)|0</DataType>
     </column>
-    <column id="186" parent="147" name="sys_avail_data">
+    <column id="268" parent="149" name="sys_avail_data">
       <Position>13</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <key id="187" parent="147" name="PRIMARY">
+    <key id="269" parent="149" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="188" parent="148" name="id">
+    <column id="270" parent="150" name="id">
       <Position>1</Position>
       <DataType>varchar(16)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="189" parent="148" name="company_id">
+    <column id="271" parent="150" name="company_id">
       <Position>2</Position>
       <DataType>varchar(16)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="190" parent="148" name="country_total">
+    <column id="272" parent="150" name="country_total">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="191" parent="148" name="country_count">
+    <column id="273" parent="150" name="country_count">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="192" parent="148" name="province_total">
+    <column id="274" parent="150" name="province_total">
       <Position>5</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="193" parent="148" name="province_count">
+    <column id="275" parent="150" name="province_count">
       <Position>6</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="194" parent="148" name="city_total">
+    <column id="276" parent="150" name="city_total">
       <Position>7</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="195" parent="148" name="city_count">
+    <column id="277" parent="150" name="city_count">
       <Position>8</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="196" parent="148" name="other_total">
+    <column id="278" parent="150" name="other_total">
       <Position>9</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="197" parent="148" name="other_count">
+    <column id="279" parent="150" name="other_count">
       <Position>10</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="198" parent="148" name="pollution_source_count">
+    <column id="280" parent="150" name="pollution_source_count">
       <Position>11</Position>
       <DataType>int(11)|0</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="199" parent="148" name="monitored_device_count">
+    <column id="281" parent="150" name="monitored_device_count">
       <Position>12</Position>
       <DataType>int(11)|0</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="200" parent="148" name="sys_create_time">
+    <column id="282" parent="150" name="sys_create_time">
       <Position>13</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="201" parent="148" name="sys_creator">
+    <column id="283" parent="150" name="sys_creator">
       <Position>14</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="202" parent="148" name="sys_update_time">
+    <column id="284" parent="150" name="sys_update_time">
       <Position>15</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="203" parent="148" name="sys_updater">
+    <column id="285" parent="150" name="sys_updater">
       <Position>16</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="204" parent="148" name="sys_deleted">
+    <column id="286" parent="150" name="sys_deleted">
       <Position>17</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="205" parent="148" name="sys_hash">
+    <column id="287" parent="150" name="sys_hash">
       <Position>18</Position>
       <DataType>varchar(64)|0</DataType>
     </column>
-    <column id="206" parent="148" name="sys_avail_data">
+    <column id="288" parent="150" name="sys_avail_data">
       <Position>19</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <key id="207" parent="148" name="PRIMARY">
+    <key id="289" parent="150" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="208" parent="149" name="id">
+    <column id="290" parent="151" name="id">
       <Position>1</Position>
       <DataType>varchar(16)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="209" parent="149" name="pollution_source_id">
+    <column id="291" parent="151" name="pollution_source_id">
       <Position>2</Position>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="210" parent="149" name="company_id">
+    <column id="292" parent="151" name="company_id">
       <Position>3</Position>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="211" parent="149" name="station_id">
+    <column id="293" parent="151" name="station_id">
       <Position>4</Position>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="212" parent="149" name="position">
+    <column id="294" parent="151" name="position">
       <Position>5</Position>
       <DataType>varchar(256)|0</DataType>
     </column>
-    <column id="213" parent="149" name="power">
+    <column id="295" parent="151" name="power">
       <Position>6</Position>
       <DataType>double(10,2)|0</DataType>
     </column>
-    <column id="214" parent="149" name="name">
+    <column id="296" parent="151" name="name">
       <Position>7</Position>
       <DataType>varchar(60)|0</DataType>
     </column>
-    <column id="215" parent="149" name="device_type">
+    <column id="297" parent="151" name="device_type">
       <Position>8</Position>
       <DataType>varchar(6)|0</DataType>
     </column>
-    <column id="216" parent="149" name="sys_create_time">
+    <column id="298" parent="151" name="sys_create_time">
       <Position>9</Position>
       <DataType>datetime|0</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="217" parent="149" name="sys_creator">
+    <column id="299" parent="151" name="sys_creator">
       <Position>10</Position>
       <DataType>varchar(32)|0</DataType>
     </column>
-    <column id="218" parent="149" name="sys_deleted">
+    <column id="300" parent="151" name="sys_deleted">
       <Position>11</Position>
       <DataType>char(2)|0</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <key id="219" parent="149" name="PRIMARY">
+    <index id="301" parent="151" name="env_id_pollution_source_id">
+      <ColNames>id
+pollution_source_id</ColNames>
+    </index>
+    <key id="302" parent="151" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="220" parent="150" name="id">
+    <column id="303" parent="152" name="id">
       <Position>1</Position>
       <DataType>varchar(16)|0</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="221" parent="150" name="pollution_source_id">
+    <column id="304" parent="152" name="pollution_source_id">
       <Position>2</Position>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="222" parent="150" name="company_id">
+    <column id="305" parent="152" name="company_id">
       <Position>3</Position>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="223" parent="150" name="station_id">
+    <column id="306" parent="152" name="station_id">
       <Position>4</Position>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="224" parent="150" name="position">
+    <column id="307" parent="152" name="position">
       <Position>5</Position>
       <DataType>varchar(256)|0</DataType>
     </column>
-    <column id="225" parent="150" name="power">
+    <column id="308" parent="152" name="power">
       <Position>6</Position>
       <DataType>double(10,2)|0</DataType>
     </column>
-    <column id="226" parent="150" name="name">
+    <column id="309" parent="152" name="name">
       <Position>7</Position>
       <DataType>varchar(60)|0</DataType>
     </column>
-    <column id="227" parent="150" name="device_type">
+    <column id="310" parent="152" name="device_type">
       <Position>8</Position>
       <DataType>varchar(6)|0</DataType>
     </column>
-    <column id="228" parent="150" name="sys_create_time">
+    <column id="311" parent="152" name="sys_create_time">
       <Position>9</Position>
       <DataType>datetime|0</DataType>
-      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="229" parent="150" name="sys_creator">
+    <column id="312" parent="152" name="sys_creator">
       <Position>10</Position>
       <DataType>varchar(32)|0</DataType>
     </column>
-    <column id="230" parent="150" name="sys_deleted">
+    <column id="313" parent="152" name="sys_deleted">
       <Position>11</Position>
       <DataType>char(2)|0</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="231" parent="151" name="pollution_source_id">
+    <column id="314" parent="153" name="pollution_source_id">
       <Position>1</Position>
       <DataType>varchar(34)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="232" parent="151" name="type">
+    <column id="315" parent="153" name="type">
       <Position>2</Position>
       <DataType>varchar(6)|0</DataType>
     </column>
-    <column id="233" parent="151" name="id">
+    <column id="316" parent="153" name="id">
       <Position>3</Position>
       <DataType>varchar(34)|0</DataType>
     </column>
-    <column id="234" parent="151" name="company_id">
+    <column id="317" parent="153" name="company_id">
       <Position>4</Position>
       <DataType>varchar(34)|0</DataType>
     </column>
-    <column id="235" parent="152" name="id">
+    <column id="318" parent="154" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="236" parent="152" name="patrol_code">
+    <column id="319" parent="154" name="patrol_code">
       <Position>2</Position>
       <Comment>巡查记录编号</Comment>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="237" parent="152" name="company_code">
+    <column id="320" parent="154" name="company_code">
       <Position>3</Position>
       <Comment>被巡查企业编号（保留，目前不用）</Comment>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="238" parent="152" name="company_name">
+    <column id="321" parent="154" name="company_name">
       <Position>4</Position>
       <Comment>被巡查企业名称（目前手写）</Comment>
       <DataType>varchar(64)|0</DataType>
     </column>
-    <column id="239" parent="152" name="company_address">
+    <column id="322" parent="154" name="company_address">
       <Position>5</Position>
       <Comment>企业地址</Comment>
       <DataType>varchar(128)|0</DataType>
     </column>
-    <column id="240" parent="152" name="province_code">
+    <column id="323" parent="154" name="province_code">
       <Position>6</Position>
       <Comment>省代码</Comment>
       <DataType>varchar(6)|0</DataType>
     </column>
-    <column id="241" parent="152" name="city_code">
+    <column id="324" parent="154" name="city_code">
       <Position>7</Position>
       <Comment>市代码</Comment>
       <DataType>varchar(6)|0</DataType>
     </column>
-    <column id="242" parent="152" name="county_code">
+    <column id="325" parent="154" name="county_code">
       <Position>8</Position>
       <Comment>区县代码</Comment>
       <DataType>varchar(6)|0</DataType>
     </column>
-    <column id="243" parent="152" name="pollution_factor">
+    <column id="326" parent="154" name="pollution_factor">
       <Position>9</Position>
       <Comment>污染因子</Comment>
       <DataType>varchar(64)|0</DataType>
     </column>
-    <column id="244" parent="152" name="has_certify">
+    <column id="327" parent="154" name="has_certify">
       <Position>10</Position>
       <Comment>是否有环保手续，0/1:无/有</Comment>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="245" parent="152" name="illegal_type">
+    <column id="328" parent="154" name="illegal_type">
       <Position>11</Position>
       <Comment>疑似违法类别</Comment>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="246" parent="152" name="officers">
+    <column id="329" parent="154" name="officers">
       <Position>12</Position>
       <Comment>执法人员</Comment>
       <DataType>varchar(64)|0</DataType>
     </column>
-    <column id="247" parent="152" name="situation">
+    <column id="330" parent="154" name="situation">
       <Position>13</Position>
       <Comment>现场情况</Comment>
       <DataType>varchar(200)|0</DataType>
     </column>
-    <column id="248" parent="152" name="advice">
+    <column id="331" parent="154" name="advice">
       <Position>14</Position>
       <Comment>处理建议，字典项</Comment>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="249" parent="152" name="img_url">
+    <column id="332" parent="154" name="img_url">
       <Position>15</Position>
       <Comment>现场照片链接，最多10张</Comment>
       <DataType>varchar(8000)|0</DataType>
     </column>
-    <column id="250" parent="152" name="create_by">
+    <column id="333" parent="154" name="create_by">
       <Position>16</Position>
       <Comment>创建账号id</Comment>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="251" parent="152" name="create_at">
+    <column id="334" parent="154" name="create_at">
       <Position>17</Position>
       <DataType>bigint(20)|0</DataType>
     </column>
-    <column id="252" parent="152" name="disabled">
+    <column id="335" parent="154" name="disabled">
       <Position>18</Position>
       <DataType>tinyint(4)|0</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <key id="253" parent="152" name="PRIMARY">
+    <key id="336" parent="154" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="254" parent="153" name="pollution_source_id">
+    <column id="337" parent="155" name="pollution_source_id">
       <Position>1</Position>
       <DataType>varchar(34)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="255" parent="153" name="type">
+    <column id="338" parent="155" name="type">
       <Position>2</Position>
       <DataType>varchar(6)|0</DataType>
     </column>
-    <column id="256" parent="153" name="id">
+    <column id="339" parent="155" name="id">
       <Position>3</Position>
       <DataType>varchar(34)|0</DataType>
     </column>
-    <column id="257" parent="153" name="company_id">
+    <column id="340" parent="155" name="company_id">
       <Position>4</Position>
       <DataType>varchar(34)|0</DataType>
     </column>
-    <column id="258" parent="154" name="id">
+    <column id="341" parent="156" name="id">
       <Position>1</Position>
       <DataType>varchar(16)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="259" parent="154" name="name">
+    <column id="342" parent="156" name="name">
       <Position>2</Position>
       <DataType>varchar(128)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="260" parent="154" name="company_id">
+    <column id="343" parent="156" name="company_id">
       <Position>3</Position>
       <DataType>varchar(16)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="261" parent="154" name="pollution_device_ids">
+    <column id="344" parent="156" name="pollution_device_ids">
       <Position>4</Position>
       <DataType>varchar(512)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="262" parent="154" name="optimize_device_ids">
+    <column id="345" parent="156" name="optimize_device_ids">
       <Position>5</Position>
       <DataType>varchar(512)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="263" parent="154" name="description">
+    <column id="346" parent="156" name="description">
       <Position>6</Position>
       <DataType>varchar(256)|0</DataType>
     </column>
-    <column id="264" parent="154" name="sys_create_time">
+    <column id="347" parent="156" name="sys_create_time">
       <Position>7</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="265" parent="154" name="sys_creator">
+    <column id="348" parent="156" name="sys_creator">
       <Position>8</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="266" parent="154" name="sys_update_time">
+    <column id="349" parent="156" name="sys_update_time">
       <Position>9</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="267" parent="154" name="sys_updater">
+    <column id="350" parent="156" name="sys_updater">
       <Position>10</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="268" parent="154" name="sys_deleted">
+    <column id="351" parent="156" name="sys_deleted">
       <Position>11</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="269" parent="154" name="sys_hash">
+    <column id="352" parent="156" name="sys_hash">
       <Position>12</Position>
       <DataType>varchar(64)|0</DataType>
     </column>
-    <column id="270" parent="154" name="sys_avail_data">
+    <column id="353" parent="156" name="sys_avail_data">
       <Position>13</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <key id="271" parent="154" name="PRIMARY">
+    <key id="354" parent="156" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="272" parent="155" name="id">
+    <column id="355" parent="157" name="id">
       <Position>1</Position>
       <DataType>varchar(16)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="273" parent="155" name="name">
+    <column id="356" parent="157" name="name">
       <Position>2</Position>
       <DataType>varchar(128)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="274" parent="155" name="company_id">
+    <column id="357" parent="157" name="company_id">
       <Position>3</Position>
       <DataType>varchar(16)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="275" parent="155" name="pollution_device_ids">
+    <column id="358" parent="157" name="pollution_device_ids">
       <Position>4</Position>
       <DataType>varchar(512)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="276" parent="155" name="optimize_device_ids">
+    <column id="359" parent="157" name="optimize_device_ids">
       <Position>5</Position>
       <DataType>varchar(512)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="277" parent="155" name="description">
+    <column id="360" parent="157" name="description">
       <Position>6</Position>
       <DataType>varchar(256)|0</DataType>
     </column>
-    <column id="278" parent="155" name="sys_create_time">
+    <column id="361" parent="157" name="sys_create_time">
       <Position>7</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="279" parent="155" name="sys_creator">
+    <column id="362" parent="157" name="sys_creator">
       <Position>8</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="280" parent="155" name="sys_update_time">
+    <column id="363" parent="157" name="sys_update_time">
       <Position>9</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="281" parent="155" name="sys_updater">
+    <column id="364" parent="157" name="sys_updater">
       <Position>10</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="282" parent="155" name="sys_deleted">
+    <column id="365" parent="157" name="sys_deleted">
       <Position>11</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="283" parent="155" name="sys_hash">
+    <column id="366" parent="157" name="sys_hash">
       <Position>12</Position>
       <DataType>varchar(64)|0</DataType>
     </column>
-    <column id="284" parent="155" name="sys_avail_data">
+    <column id="367" parent="157" name="sys_avail_data">
       <Position>13</Position>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>

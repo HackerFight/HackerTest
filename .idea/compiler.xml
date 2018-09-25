@@ -2,14 +2,27 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-service-provider" />
+        <module name="lombok" />
+        <module name="servicecommoninterface" />
+        <module name="servicecustomer" />
+        <module name="serviceprovider" />
+        <module name="SuperStar" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="WebApp" target="1.7" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="dubbo-parent" target="1.5" />
+      <module name="dubbo-service-provider" target="1.5" />
+      <module name="lombok" target="1.8" />
+      <module name="servicecommoninterface" target="1.5" />
+      <module name="servicecustomer" target="1.5" />
+      <module name="serviceprovider" target="1.5" />
+      <module name="SuperStar" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

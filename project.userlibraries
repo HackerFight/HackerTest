@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: aopalliance:aopalliance:1.0">
+    <archive path="E:/maven/maven-dependcies/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" />
+  </library>
+  <library name="Maven: com.alibaba:fastjson:1.2.49">
+    <archive path="E:/maven/maven-dependcies/com/alibaba/fastjson/1.2.49/fastjson-1.2.49.jar" />
+  </library>
+  <library name="Maven: junit:junit:4.12">
+    <archive path="E:/maven/maven-dependcies/junit/junit/4.12/junit-4.12.jar" />
+  </library>
+  <library name="Maven: org.aspectj:aspectjrt:1.9.1">
+    <archive path="E:/maven/maven-dependcies/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar" />
+  </library>
+  <library name="Maven: org.aspectj:aspectjweaver:1.9.1">
+    <archive path="E:/maven/maven-dependcies/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar" />
+  </library>
+  <library name="Maven: org.hamcrest:hamcrest-core:1.3">
+    <archive path="E:/maven/maven-dependcies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+  </library>
+  <library name="Maven: org.projectlombok:lombok:1.18.0">
+    <archive path="E:/maven/maven-dependcies/org/projectlombok/lombok/1.18.0/lombok-1.18.0.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aop:5.0.5.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aop:5.0.6.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-beans:5.0.5.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-beans:5.0.6.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context:5.0.5.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context:5.0.6.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-core:5.0.5.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-core:5.0.6.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-expression:5.0.5.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-expression:5.0.6.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-expression/5.0.6.RELEASE/spring-expression-5.0.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jcl:5.0.5.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jcl:5.0.6.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-jcl/5.0.6.RELEASE/spring-jcl-5.0.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-test:5.0.6.RELEASE">
+    <archive path="E:/maven/maven-dependcies/org/springframework/spring-test/5.0.6.RELEASE/spring-test-5.0.6.RELEASE.jar" />
+  </library>
+  <library name="fastjson-1.1.22">
+    <archive path="E:/workspace/hacker/project/Test/lib/fastjson-1.1.22.jar" />
+  </library>
+</eclipse-userlibraries>
+

@@ -13,16 +13,18 @@
         <module name="servicecustomer" />
         <module name="serviceprovider" />
         <module name="SuperStar" />
+        <module name="Test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="dubbo-parent" target="1.5" />
       <module name="dubbo-service-provider" target="1.5" />
       <module name="lombok" target="1.8" />
-      <module name="servicecommoninterface" target="1.5" />
-      <module name="servicecustomer" target="1.5" />
-      <module name="serviceprovider" target="1.5" />
+      <module name="servicecommoninterface" target="1.8" />
+      <module name="servicecustomer" target="1.8" />
+      <module name="serviceprovider" target="1.8" />
       <module name="SuperStar" target="1.8" />
+      <module name="Test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

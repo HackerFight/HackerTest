@@ -148,7 +148,7 @@
     <schema id="140" parent="1" name="website"/>
     <schema id="141" parent="1" name="zheng"/>
     <schema id="142" parent="1" name="zhongheng"/>
-    <schema id="143" parent="1" name="secondaryEquipment_v3.2.1_convert"/>
+    <schema id="143" parent="1" name="secondaryEquipment_convert"/>
     <table id="144" parent="70" name="account">
       <Comment>帐号</Comment>
     </table>

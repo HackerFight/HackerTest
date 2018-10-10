@@ -82,18 +82,28 @@ public class Test01 {
                 " `sys_creator`, `sys_update_time`, `sys_updater`, `sys_deleted`, `sys_hash`, `sys_avail_data`) " +
                 "VALUES ('" + strs[2] + "', '10002', '2018-06-04 14:44:05', '', '2018-06-04 14:44:05', '', '0', NULL, '0');\n";
 
+        //上树
+        String treeSql = "INSERT INTO `asset3.2`.`t_asset_tree` (`current_id`, `display_id`, `display_name`, `display_type`, `parent_id`," +
+                " `owner_id`, `owner_type`, `sequence`, `hided`, `sys_create_time`, `sys_creator`, `sys_update_time`, " +
+                "`sys_updater`, `sys_deleted`, `sys_hash`, `sys_avail_data`) " +
+                "VALUES ('" + stationArray[stationArray.length - 3] +  "', '" + stationArray[stationArray.length - 3] + "', '" + stationArray[5] +  "', '40012', NULL, " +
+                "' " +  stationArray[stationArray.length - 3] +  "', '27001', NULL, NULL, '2017-12-12 19:51:39', ' ', " +
+                "'2018-08-29 17:21:47', ' ', '0', NULL, '0');\n";
+
         System.out.println(sql);
         System.out.println();
         System.out.println(sqlStation);
         System.out.println();
         System.out.println(companyStarSql);
         System.out.println(companyStarSql2);
+        System.out.println(treeSql);
     }
 
 
     /**
      * 多个站点迁移（包含企业 + 站点 + 企业字符串）
      * 注意:要保证 企业 和 站点 一对一 对应，可以在 查询的时候都按照 企业id 排序
+     *  这个我没有测试
      */
     @Test
     public void moreStationMigrate() {
@@ -132,8 +142,8 @@ public class Test01 {
                     "VALUES ('" + companyStrInfo[2] + "', NULL, '" + companyStrInfo[3] + "', '" + companyStrInfo[4] + "', '12003', NULL, " +
                     "NULL, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL, 'null', NULL, '"
                     + companyStrInfo[18] + "', '" + companyStrInfo[19] + "', '" + companyStrInfo[20] + "', '" + companyStrInfo[21] + "', '" + companyStrInfo[22] + "', NULL," +
-                    " '33', '" + stationArray[8] + "', '" + stationArray[9] + "', NULL, '203004', '" + parseNDZHBJson() + "', '" + companyStrInfo[companyStrInfo.length - 1] + "', \'" +
-                    " ', '0', NULL, '0', '" + companyStrInfo[companyStrInfo.length - 1] + "', ' ');\n";
+                    " '33', '" + companyStrInfo[companyStrInfo.length - 2] + "', '" + companyStrInfo[companyStrInfo.length - 1] + "', NULL, '203004', '" + parseNDZHBJson() + "', '" + companyStrInfo[companyStrInfo.length - 5] + "', \'" +
+                    " ', '0', NULL, '0', '" + companyStrInfo[companyStrInfo.length - 5] + "', ' ');\n";
 
 
 
@@ -165,5 +175,7 @@ public class Test01 {
 
             System.out.println(sqlStation);
         }
+
+        //还要处理树，用到此方法时再写
     }
 }

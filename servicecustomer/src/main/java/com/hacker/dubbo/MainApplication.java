@@ -19,7 +19,7 @@ public class MainApplication {
 
         OrderService orderService = ctx.getBean(OrderService.class);
         List<UserAddress> userAddresses = orderService.initOrder("10001");
-        System.out.println(userAddresses);
+        userAddresses.stream().map(UserAddress::getUserAddress).forEach(System.out::println);
 
         /**
          * 他是阻塞用的

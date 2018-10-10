@@ -22,6 +22,4 @@
      -->
     <dubbo:reference interface="com.hacker.dubbo.service.interfaces.UserService" id="userService"></dubbo:reference>
 
-    <!-- 配置监控中心 -->
-    <dubbo:monitor protocol="registry"></dubbo:monitor>
 </beans>

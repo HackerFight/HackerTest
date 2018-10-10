@@ -4,7 +4,10 @@ import com.hacker.dubbo.service.bean.UserAddress;
 
 import java.util.List;
 
-
+/**
+ * 订单服务
+ * @author Hacker
+ */
 public interface OrderService {
 	
 	/**

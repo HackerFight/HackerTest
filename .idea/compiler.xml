@@ -14,6 +14,7 @@
         <module name="serviceprovider" />
         <module name="SuperStar" />
         <module name="Test" />
+        <module name="ThreadTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -25,6 +26,7 @@
       <module name="serviceprovider" target="1.8" />
       <module name="SuperStar" target="1.8" />
       <module name="Test" target="1.8" />
+      <module name="ThreadTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

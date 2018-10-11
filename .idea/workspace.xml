@@ -7,32 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fca231b-c0b3-4793-8b7b-60e360af55d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/src/main/java/com/hacker/demo/Test02.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadTest/ThreadTest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadTest/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/CountDownLatchTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/CyclicBarrierTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/SemaphoreTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/servicecustomer/src/main/java/com/hacker/dubbo/bean/UserAddress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/servicecustomer/target/classes/com/hacker/dubbo/bean/UserAddress.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/serviceprovider/src/main/java/com/hacker/dubbo/service/bean/UserAddress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/serviceprovider/target/classes/com/hacker/dubbo/service/bean/UserAddress.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/target/classes/com/hacker/demo/Test01.class" afterPath="$PROJECT_DIR$/Test/target/classes/com/hacker/demo/Test01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servicecustomer/target/classes/com/hacker/dubbo/MainApplication.class" afterPath="$PROJECT_DIR$/servicecustomer/target/classes/com/hacker/dubbo/MainApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serviceprovider/target/classes/com/hacker/dubbo/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/serviceprovider/target/classes/com/hacker/dubbo/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/src/main/java/com/hacker/demo/PuruiOpenAPi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/src/main/java/com/hacker/demo/StationService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/main/java/com/hacker/demo/Test01.java" afterPath="$PROJECT_DIR$/Test/src/main/java/com/hacker/demo/Test01.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servicecommoninterface/src/main/java/com/hacker/dubbo/service/interfaces/OrderService.java" afterPath="$PROJECT_DIR$/servicecommoninterface/src/main/java/com/hacker/dubbo/service/interfaces/OrderService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servicecommoninterface/src/main/java/com/hacker/dubbo/service/interfaces/UserService.java" afterPath="$PROJECT_DIR$/servicecommoninterface/src/main/java/com/hacker/dubbo/service/interfaces/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servicecustomer/src/main/java/com/hacker/dubbo/MainApplication.java" afterPath="$PROJECT_DIR$/servicecustomer/src/main/java/com/hacker/dubbo/MainApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servicecustomer/src/main/resources/applicationContext-customer.xml" afterPath="$PROJECT_DIR$/servicecustomer/src/main/resources/applicationContext-customer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servicecustomer/target/classes/applicationContext-customer.xml" afterPath="$PROJECT_DIR$/servicecustomer/target/classes/applicationContext-customer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serviceprovider/src/main/java/com/hacker/dubbo/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/serviceprovider/src/main/java/com/hacker/dubbo/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serviceprovider/src/main/resources/applicationContext-provider.xml" afterPath="$PROJECT_DIR$/serviceprovider/src/main/resources/applicationContext-provider.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serviceprovider/target/classes/applicationContext-provider.xml" afterPath="$PROJECT_DIR$/serviceprovider/target/classes/applicationContext-provider.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/WebApp/target/" />
@@ -110,35 +87,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CountDownLatchTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/CountDownLatchTest.java">
+      <file leaf-file-name="GsonFormat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lombok/src/main/java/com/hacker/lombok/json/GsonFormat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="39" column="65" lean-forward="true" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CyclicBarrierTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/CyclicBarrierTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="823">
-              <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CyclicBarrier.java" pinned="false" current-in-tab="true">
-        <entry file="jar://D:/install/java1.8/jdk1.8.0_144/src.zip!/java/util/concurrent/CyclicBarrier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="281" column="5" lean-forward="false" selection-start-line="281" selection-start-column="5" selection-end-line="281" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,11 +100,21 @@
       <file leaf-file-name="SemaphoreTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/SemaphoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            <state relative-caret-position="1050">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PuruiOpenAPi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/src/main/java/com/hacker/demo/PuruiOpenAPi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="573">
+              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,9 +128,9 @@
         <option value="JUnit4 Test Class" />
         <option value="Singleton" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -205,8 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lombok/src/main/java/com/hacker/lombok/reflect/Person.java" />
-        <option value="$PROJECT_DIR$/lombok/src/main/java/com/hacker/lombok/entry/Customer.java" />
         <option value="$PROJECT_DIR$/lombok/src/main/java/com/hacker/lombok/entry/Student.java" />
         <option value="$PROJECT_DIR$/lombok/src/main/java/com/hacker/lombok/LombokTest.java" />
         <option value="$PROJECT_DIR$/lombok/src/main/java/com/hacker/lombok/reflect/ReflectTest.java" />
@@ -256,6 +217,8 @@
         <option value="$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/SemaphoreTest.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/CyclicBarrierTest.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/CountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/Test/src/main/java/com/hacker/demo/StationService.java" />
+        <option value="$PROJECT_DIR$/Test/src/main/java/com/hacker/demo/PuruiOpenAPi.java" />
       </list>
     </option>
   </component>
@@ -349,8 +312,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -362,12 +323,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../openapi-parent/openapi-parent" />
@@ -416,7 +379,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchTest">
+  <component name="RunManager" selected="JUnit.PuruiOpenAPi.test">
     <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -454,6 +417,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ThreadTest" />
       <envs />
+    </configuration>
+    <configuration name="PuruiOpenAPi.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hacker.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hacker.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.hacker.demo.PuruiOpenAPi" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -652,19 +640,21 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.WebApplication" />
       <item index="1" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.SemaphoreTest.test1" />
       <item index="3" class="java.lang.String" itemvalue="Application.CountDownLatchTest" />
       <item index="4" class="java.lang.String" itemvalue="Application.CyclicBarrierTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PuruiOpenAPi.test" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.CountDownLatchTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CyclicBarrierTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SemaphoreTest.test1" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PuruiOpenAPi.test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CountDownLatchTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CyclicBarrierTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SemaphoreTest.test1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -803,7 +793,8 @@
       <workItem from="1538911580386" duration="10376000" />
       <workItem from="1539065287938" duration="16869000" />
       <workItem from="1539153370382" duration="1248000" />
-      <workItem from="1539158733358" duration="3315000" />
+      <workItem from="1539158733358" duration="14170000" />
+      <workItem from="1539243411369" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="提交code">
       <created>1537840820213</created>
@@ -812,30 +803,37 @@
       <option name="project" value="LOCAL" />
       <updated>1537840820214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交多线程测试的代码（将以前未提交的一并提交)">
+      <created>1539164509665</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539164509665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountDownLatchTest - 2018.10.09 at 15h 23m 34s.xml">
-      <configuration name="CountDownLatchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountDownLatchTest - 2018.10.09 at 15h 23m 37s.xml">
-      <configuration name="CountDownLatchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountDownLatchTest - 2018.10.09 at 15h 25m 00s.xml">
-      <configuration name="CountDownLatchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountDownLatchTest - 2018.10.09 at 15h 25m 07s.xml">
-      <configuration name="CountDownLatchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountDownLatchTest - 2018.10.09 at 15h 25m 10s.xml">
-      <configuration name="CountDownLatchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountDownLatchTest - 2018.10.09 at 15h 25m 13s.xml">
-      <configuration name="CountDownLatchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CountDownLatchTest - 2018.10.09 at 15h 25m 16s.xml">
       <configuration name="CountDownLatchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PuruiOpenAPi_test - 2018.10.11 at 13h 52m 04s.xml">
+      <configuration name="PuruiOpenAPi.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PuruiOpenAPi_test - 2018.10.11 at 13h 54m 06s.xml">
+      <configuration name="PuruiOpenAPi.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PuruiOpenAPi_test - 2018.10.11 at 13h 55m 20s.xml">
+      <configuration name="PuruiOpenAPi.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PuruiOpenAPi_test - 2018.10.11 at 13h 58m 16s.xml">
+      <configuration name="PuruiOpenAPi.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PuruiOpenAPi_test - 2018.10.11 at 14h 04m 02s.xml">
+      <configuration name="PuruiOpenAPi.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PuruiOpenAPi_test - 2018.10.11 at 14h 04m 43s.xml">
+      <configuration name="PuruiOpenAPi.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SemaphoreTest_test1 - 2018.10.09 at 17h 25m 23s.xml">
       <configuration name="SemaphoreTest.test1" configurationId="JUnit" />
@@ -848,7 +846,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331982000" />
+    <option name="totallyTimeSpent" value="342951000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -876,7 +874,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35523385" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.4936034" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -885,7 +882,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.48294243" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14978679" sideWeight="0.50082916" order="0" side_tool="false" content_ui="combo" x="789" y="71" width="342" height="898" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359275" sideWeight="0.50082916" order="0" side_tool="false" content_ui="combo" x="789" y="71" width="342" height="898" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -895,6 +892,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22014925" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -953,7 +951,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交code" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交code" />
+    <MESSAGE value="提交多线程测试的代码（将以前未提交的一并提交)" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交多线程测试的代码（将以前未提交的一并提交)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -995,33 +994,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/servicecustomer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servicecommoninterface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serviceprovider/doc/说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/servicecommoninterface/doc/说明.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1044,13 +1016,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lombok/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/src/main/java/com/hacker/demo/Test02.java">
@@ -1068,13 +1040,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/servicecustomer/src/main/java/com/hacker/dubbo/service/impl/OrderServiceImpl.java">
@@ -1095,7 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,13 +1107,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/serviceprovider/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/servicecustomer/src/main/resources/applicationContext-customer.xml">
@@ -1248,7 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="77" column="92" lean-forward="false" selection-start-line="77" selection-start-column="92" selection-end-line="77" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1256,10 +1226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="107" column="23" lean-forward="false" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
-          <folding>
-            <element signature="e#4294#4295#0" expanded="true" />
-            <element signature="e#4336#4337#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,7 +1233,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="51" column="62" lean-forward="true" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1289,7 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
           <caret line="38" column="78" lean-forward="false" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,7 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1305,7 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
           <caret line="67" column="41" lean-forward="false" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,7 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="35" column="66" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1321,7 +1282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,14 +1294,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadTest/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
       </provider>
     </entry>
     <entry file="jar://D:/install/java1.8/jdk1.8.0_144/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
@@ -1355,36 +1314,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="173" column="30" lean-forward="true" selection-start-line="173" selection-start-column="30" selection-end-line="173" selection-end-column="30" />
-          <folding>
-            <element signature="e#6228#6229#0" expanded="false" />
-            <element signature="e#6269#6270#0" expanded="false" />
-            <element signature="e#6303#6304#0" expanded="false" />
-            <element signature="e#6344#6345#0" expanded="false" />
-            <element signature="e#8009#8010#0" expanded="false" />
-            <element signature="e#8073#8074#0" expanded="false" />
-            <element signature="e#24977#24978#0" expanded="false" />
-            <element signature="e#25017#25018#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/SemaphoreTest.java">
+    <entry file="jar://D:/install/java1.8/jdk1.8.0_144/src.zip!/java/util/concurrent/CyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="39" column="65" lean-forward="true" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="507">
+          <caret line="296" column="7" lean-forward="true" selection-start-line="296" selection-start-column="7" selection-end-line="296" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1392,16 +1328,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="823">
           <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="39" column="65" lean-forward="true" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lombok/src/main/java/com/hacker/lombok/json/GsonFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/main/java/com/hacker/thread/SemaphoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/install/java1.8/jdk1.8.0_144/src.zip!/java/util/concurrent/CyclicBarrier.java">
+    <entry file="file://$PROJECT_DIR$/Test/src/main/java/com/hacker/demo/StationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="281" column="5" lean-forward="false" selection-start-line="281" selection-start-column="5" selection-end-line="281" selection-end-column="5" />
+        <state relative-caret-position="125">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/src/main/java/com/hacker/demo/PuruiOpenAPi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding />
         </state>
       </provider>

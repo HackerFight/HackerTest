@@ -24,6 +24,6 @@ public class MainApplication {
         /**
          * 他是阻塞用的
          */
-        System.in.read();
+//        System.in.read();
     }
 }

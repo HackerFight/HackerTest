@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
-
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <context:component-scan base-package="com.hacker.dubbo.service"></context:component-scan>
+    
     <!--  1.指定当前服务的名字,这个名字可以在后面的监控中心和控制台可以看见  -->
     <dubbo:application name="user-service-provider"></dubbo:application>
 
@@ -16,5 +20,9 @@
     <!-- 4.暴露服务，让别人使用. ref 指向真正的服务实现对象 -->
     <dubbo:service interface="com.hacker.dubbo.service.interfaces.UserService" ref="userServiceImpl"></dubbo:service>
     <bean id="userServiceImpl" class="com.hacker.dubbo.service.impl.UserServiceImpl"></bean>
+
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+
 
 </beans>

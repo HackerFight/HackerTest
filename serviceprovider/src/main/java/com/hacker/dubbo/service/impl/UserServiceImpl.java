@@ -2,6 +2,7 @@ package com.hacker.dubbo.service.impl;
 
 import com.hacker.dubbo.service.bean.UserAddress;
 import com.hacker.dubbo.service.interfaces.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.List;
  * @project project
  * @describe
  */
+@Service("userService")
 public class UserServiceImpl implements UserService {
     /**
      * @param userId

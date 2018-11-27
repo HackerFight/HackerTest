@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-service-provider" />
+        <module name="JvmTest" />
         <module name="lombok" />
         <module name="servicecommoninterface" />
         <module name="servicecustomer" />
@@ -20,6 +21,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="dubbo-parent" target="1.5" />
       <module name="dubbo-service-provider" target="1.5" />
+      <module name="JvmTest" target="1.8" />
       <module name="lombok" target="1.8" />
       <module name="servicecommoninterface" target="1.8" />
       <module name="servicecustomer" target="1.8" />

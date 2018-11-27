@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/servicecommoninterface/pom.xml" />
         <option value="$PROJECT_DIR$/Test/pom.xml" />
         <option value="$PROJECT_DIR$/ThreadTest/pom.xml" />
+        <option value="$PROJECT_DIR$/JvmTest/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -1,9 +1,12 @@
 package com.hacker.demo;
 
+import org.junit.Test;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneOffset;
+import java.time.temporal.TemporalAdjusters;
 
 /**
  * @author Hacker
@@ -12,6 +15,14 @@ import java.time.ZoneOffset;
  * @describe
  */
 public class LocalDateTimeTest {
+
+    @Test
+    public void test() {
+        Long start = LocalDateTime.of(LocalDate.now(), LocalTime.MIN)
+                .with(TemporalAdjusters.firstDayOfMonth())
+                .toInstant(ZoneOffset.ofHours(8)).toEpochMilli();
+        System.out.println(start);
+    }
 
     private static final Integer DAY_MILL = 24 * 60 * 60 * 1000;
 
@@ -23,7 +34,7 @@ public class LocalDateTimeTest {
 //        LocalDateTime today_end = LocalDateTime.of(LocalDate.now(), LocalTime.MAX);
 //        long end = today_end.toInstant(ZoneOffset.ofHours(8)).toEpochMilli(); //今日结束时间
 //
-         //这种方式很够，每个月1号都有问题，因为变成了0,..
+        //这种方式很够，每个月1号都有问题，因为变成了0,..
 //        int year = today_start.getYear();
 //        Month month = today_start.getMonth();
 //        int day = today_start.getDayOfMonth() - 1;

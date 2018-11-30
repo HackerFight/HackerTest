@@ -18,6 +18,11 @@ public class PushConfig {
 
     private Long latestHappenTime;
 
+    public PushConfig(String stationId, String stationName) {
+        this.stationId = stationId;
+        this.stationName = stationName;
+    }
+
     public String getStationId() {
         return stationId;
     }
@@ -56,5 +61,16 @@ public class PushConfig {
 
     public void setLatestHappenTime(Long latestHappenTime) {
         this.latestHappenTime = latestHappenTime;
+    }
+
+    public PushConfig() {
+    }
+
+    @Override
+    public String toString() {
+        return "PushConfig{" +
+                "stationId='" + stationId + '\'' +
+                ", stationName='" + stationName + '\'' +
+                '}';
     }
 }

@@ -37,4 +37,13 @@ public class Person {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    public Person(String name, Integer age, String phone) {
+        this.name = name;
+        this.age = age;
+        this.phone = phone;
+    }
+
+    public Person() {
+    }
 }

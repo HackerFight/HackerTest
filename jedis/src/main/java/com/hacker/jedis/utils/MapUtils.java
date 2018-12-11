@@ -2,8 +2,15 @@ package com.hacker.jedis.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.util.CollectionUtils;
 
+import java.beans.BeanInfo;
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,8 +25,11 @@ public class MapUtils {
     //导入的是 slf4j
     private static final Logger logger = LoggerFactory.getLogger(MapUtils.class);
 
-    //将javaBean 转成 Map ，利用反射
-
+    /**
+     * 将javaBean 转成 Map ，利用反射
+     * @param object
+     * @return
+     */
     public static Map<String, String> conversionMap(Object object) {
         Map<String, String> map = new HashMap<>();
         try {
@@ -49,4 +59,40 @@ public class MapUtils {
         }
         return map;
     }
+
+    /**
+     * 为什么 Person 中的 age 是 Integer 就报类型错误了呢?
+     *   最后发现：问题不是出在这里，而是在 map 中，map.put("age", "24");
+     *   这样在    Object value = source.get(name);  拿到的 value 是 String 类型
+     *   而在：  writeMethod.invoke(target, value); 这里本应该是 Integer 类型，所以报错了
+     *   解决办法：在map中 将字符串的 24 改为  Integer 类型的 24
+     * @param source
+     * @param target
+     */
+    public static void conversionBean(Map<String, Object> source, Object target){
+        if (CollectionUtils.isEmpty(source)) {
+            return;
+        }
+        try {
+            BeanInfo beanInfo = Introspector.getBeanInfo(target.getClass());
+            PropertyDescriptor[] propertyDescriptors = beanInfo.getPropertyDescriptors();
+            for (PropertyDescriptor propertyDescriptor : propertyDescriptors) {
+                //属性名
+                String name = propertyDescriptor.getName();
+                if (source.containsKey(name)) {
+                    Object value = source.get(name);
+                    //得到属性对应的setter 方法
+                    Method writeMethod = propertyDescriptor.getWriteMethod();// setter  /  getReadMethod() -> get()
+                    writeMethod.invoke(target, value);
+                }
+            }
+        } catch (IntrospectionException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

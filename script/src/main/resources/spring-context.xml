@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+   <context:property-placeholder location="datasource.properties"></context:property-placeholder>
+
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <dubbo:application name="hackerScript"/>
+
+    <dubbo:registry protocol="zookeeper" address="${zookeeper.address}"/>
+    <dubbo:protocol name="dubbo" port="20808" threadpool="cached" threads="500"/>
+
+
+    <dubbo:reference id="monitoredObjectPointService"
+                     interface="com.ioe.metric.client.service.MonitoredObjectPointService"
+                     version="3.2.0" protocol="dubbo" timeout="30000" check="false"/>
+
+    <dubbo:reference id="ruleInstanceService"
+                     interface="com.ioe.alarm.client.rule.service.RuleInstanceService"
+                     protocol="dubbo" check="false" version="3.2.0" timeout="30000"/>
+
+    <dubbo:reference id="stationService"
+                     interface="com.ioe.assetManagement.assetaccount.service.StationService"
+                     protocol="dubbo" check="false" version="3.2.0" timeout="30000"/>
+
+</beans>

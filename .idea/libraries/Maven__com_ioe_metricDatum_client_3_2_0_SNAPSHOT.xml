@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ioe:metricDatum-client:3.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/metricDatum-client/3.2.0-SNAPSHOT/metricDatum-client-3.2.0-20181030.025539-11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/metricDatum-client/3.2.0-SNAPSHOT/metricDatum-client-3.2.0-20181030.025539-11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/metricDatum-client/3.2.0-SNAPSHOT/metricDatum-client-3.2.0-20181030.025539-11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

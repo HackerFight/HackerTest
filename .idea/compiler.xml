@@ -11,6 +11,8 @@
         <module name="jedis" />
         <module name="JvmTest" />
         <module name="lombok" />
+        <module name="queue" />
+        <module name="script" />
         <module name="servicecommoninterface" />
         <module name="servicecustomer" />
         <module name="serviceprovider" />
@@ -25,6 +27,9 @@
       <module name="jedis" target="1.8" />
       <module name="JvmTest" target="1.8" />
       <module name="lombok" target="1.8" />
+      <module name="queue" target="1.8" />
+      <module name="script" target="1.8" />
+      <module name="script2" target="1.8" />
       <module name="servicecommoninterface" target="1.8" />
       <module name="servicecustomer" target="1.8" />
       <module name="serviceprovider" target="1.8" />

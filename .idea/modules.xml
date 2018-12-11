@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/jedis/jedis.iml" filepath="$PROJECT_DIR$/jedis/jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/lombok/lombok.iml" filepath="$PROJECT_DIR$/lombok/lombok.iml" />
       <module fileurl="file://$PROJECT_DIR$/project.iml" filepath="$PROJECT_DIR$/project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/queue/queue.iml" filepath="$PROJECT_DIR$/queue/queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/script/script.iml" filepath="$PROJECT_DIR$/script/script.iml" />
       <module fileurl="file://$PROJECT_DIR$/serviceprovider/servciecommoninterface.iml" filepath="$PROJECT_DIR$/serviceprovider/servciecommoninterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/servicecommoninterface/servicecommoninterface.iml" filepath="$PROJECT_DIR$/servicecommoninterface/servicecommoninterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/servicecustomer/servicecustomer.iml" filepath="$PROJECT_DIR$/servicecustomer/servicecustomer.iml" />

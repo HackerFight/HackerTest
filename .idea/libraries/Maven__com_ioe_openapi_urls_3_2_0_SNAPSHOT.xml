@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ioe:openapi-urls:3.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/openapi-urls/3.2.0-SNAPSHOT/openapi-urls-3.2.0-20180915.092524-39.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/openapi-urls/3.2.0-SNAPSHOT/openapi-urls-3.2.0-20180915.092524-39-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/openapi-urls/3.2.0-SNAPSHOT/openapi-urls-3.2.0-20180915.092524-39-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

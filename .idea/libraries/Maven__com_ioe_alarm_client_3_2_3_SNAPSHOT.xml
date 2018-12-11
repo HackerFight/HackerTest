@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ioe:alarm-client:3.2.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/alarm-client/3.2.3-SNAPSHOT/alarm-client-3.2.3-20181210.052340-87.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/alarm-client/3.2.3-SNAPSHOT/alarm-client-3.2.3-20181210.052340-87-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/alarm-client/3.2.3-SNAPSHOT/alarm-client-3.2.3-20181210.052340-87-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

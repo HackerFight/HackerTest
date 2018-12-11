@@ -137,7 +137,7 @@ public class RedisHashTest {
          *     2) 使用 hash 表（个人喜欢这个，因为 hash 本身是适合存储对象的)
          */
 
-        Person person = new Person("Lisi", 34, "15853291688");
+        Person person = new Person("Lisi", 34, "15853991688");
         //提供一个工具类，将javaBean 专程 Map
         Map<String, String> map = MapUtils.conversionMap(person);
         String person1 = jedisCluster.hmset("person", map);
@@ -145,7 +145,7 @@ public class RedisHashTest {
 
         //获取值
         Map<String, String> map1 = jedisCluster.hgetAll("person");
-        System.out.println(map1); // {name=Lisi, phone=15853291688, age=34}
+        System.out.println(map1); // {name=Lisi, phone=15853291688, age=34}v
         System.out.println(jedisCluster.hget("person", "name"));
 
         //还可以一个一个属性设置，这种方式比较繁琐，属性多了就很难受了

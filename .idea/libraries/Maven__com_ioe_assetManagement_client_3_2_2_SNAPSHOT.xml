@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ioe:assetManagement-client:3.2.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/assetManagement-client/3.2.2-SNAPSHOT/assetManagement-client-3.2.2-20181123.060920-37.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/assetManagement-client/3.2.2-SNAPSHOT/assetManagement-client-3.2.2-20181123.060920-37-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ioe/assetManagement-client/3.2.2-SNAPSHOT/assetManagement-client-3.2.2-20181123.060920-37-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

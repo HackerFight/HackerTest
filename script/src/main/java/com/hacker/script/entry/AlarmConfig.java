@@ -1,111 +1,74 @@
 package com.hacker.script.entry;
 
-import java.util.List;
+import java.io.Serializable;
 
 /**
  * @author Hacker
- * @date：2018/12/10
- * @project project
+ * @date：2018/12/13
+ * @project energyManagement-parent
  * @describe
  */
-public class AlarmConfig {
+public class AlarmConfig implements Serializable {
 
-    private String stationId;
+    /**
+     * 日配额告警实例的Id
+     */
+    private String dailyAlarmInstanceId;
 
-    private String monitoredId;
+    /**
+     * 日配额预警实例的Id
+     */
+    private String dailyWarnInstanceId;
 
-    //污染设备
-    private List<String> deviceIds;
+    /**
+     * 月配额告警实例的Id
+     */
+    private String monthAlarmInstanceId;
 
-    //治理设备
-    private List<NormalConditionDto> normalConditions;
+    /**
+     * 月配额预警实例的Id
+     */
+    private String monthWarnInstanceId;
 
-    private Integer alarmContinueTime;
-
-    private Double maxPower;
-
-    Integer businessType;
-
-    String alarmInstanceId;
-
-    public String getStationId() {
-        return stationId;
+    public String getDailyAlarmInstanceId() {
+        return dailyAlarmInstanceId;
     }
 
-    public void setStationId(String stationId) {
-        this.stationId = stationId;
+    public void setDailyAlarmInstanceId(String dailyAlarmInstanceId) {
+        this.dailyAlarmInstanceId = dailyAlarmInstanceId;
     }
 
-    public String getMonitoredId() {
-        return monitoredId;
+    public String getDailyWarnInstanceId() {
+        return dailyWarnInstanceId;
     }
 
-    public void setMonitoredId(String monitoredId) {
-        this.monitoredId = monitoredId;
+    public void setDailyWarnInstanceId(String dailyWarnInstanceId) {
+        this.dailyWarnInstanceId = dailyWarnInstanceId;
     }
 
-
-    public Integer getAlarmContinueTime() {
-        return alarmContinueTime;
+    public String getMonthAlarmInstanceId() {
+        return monthAlarmInstanceId;
     }
 
-    public void setAlarmContinueTime(Integer alarmContinueTime) {
-        this.alarmContinueTime = alarmContinueTime;
+    public void setMonthAlarmInstanceId(String monthAlarmInstanceId) {
+        this.monthAlarmInstanceId = monthAlarmInstanceId;
     }
 
-    public AlarmConfig() {
+    public String getMonthWarnInstanceId() {
+        return monthWarnInstanceId;
     }
 
-    public Double getMaxPower() {
-        return maxPower;
-    }
-
-    public void setMaxPower(Double maxPower) {
-        this.maxPower = maxPower;
-    }
-
-    public List<String> getDeviceIds() {
-        return deviceIds;
-    }
-
-    public void setDeviceIds(List<String> deviceIds) {
-        this.deviceIds = deviceIds;
-    }
-
-    public List<NormalConditionDto> getNormalConditions() {
-        return normalConditions;
-    }
-
-    public void setNormalConditions(List<NormalConditionDto> normalConditions) {
-        this.normalConditions = normalConditions;
-    }
-
-    public Integer getBusinessType() {
-        return businessType;
-    }
-
-    public void setBusinessType(Integer businessType) {
-        this.businessType = businessType;
-    }
-
-    public String getAlarmInstanceId() {
-        return alarmInstanceId;
-    }
-
-    public void setAlarmInstanceId(String alarmInstanceId) {
-        this.alarmInstanceId = alarmInstanceId;
+    public void setMonthWarnInstanceId(String monthWarnInstanceId) {
+        this.monthWarnInstanceId = monthWarnInstanceId;
     }
 
     @Override
     public String toString() {
         return "AlarmConfig{" +
-                "stationId='" + stationId + '\'' +
-                ", monitoredId='" + monitoredId + '\'' +
-                ", deviceIds=" + deviceIds +
-                ", normalConditions=" + normalConditions +
-                ", alarmContinueTime=" + alarmContinueTime +
-                ", maxPower=" + maxPower +
+                "dailyAlarmInstanceId='" + dailyAlarmInstanceId + '\'' +
+                ", dailyWarnInstanceId='" + dailyWarnInstanceId + '\'' +
+                ", monthAlarmInstanceId='" + monthAlarmInstanceId + '\'' +
+                ", monthWarnInstanceId='" + monthWarnInstanceId + '\'' +
                 '}';
     }
-
 }

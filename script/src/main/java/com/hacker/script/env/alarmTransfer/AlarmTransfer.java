@@ -3,7 +3,7 @@ package com.hacker.script.env.alarmTransfer;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.hacker.script.constants.Constants;
-import com.hacker.script.entry.AlarmConfig;
+import com.hacker.script.entry.AlarmData;
 import com.hacker.script.entry.NormalConditionDto;
 import com.ioe.alarm.client.rule.entity.RuleInstance;
 import com.ioe.alarm.client.rule.service.RuleInstanceService;
@@ -87,9 +87,9 @@ public class AlarmTransfer {
     private void postAlarmData(List<Map<String, Object>> maps) {
         try {
             if (!CollectionUtils.isEmpty(maps)) {
-                List<AlarmConfig> alarmConfigs = new ArrayList<>();
+                List<AlarmData> alarmData = new ArrayList<>();
                 for (Map<String, Object> map : maps) {
-                    AlarmConfig config = new AlarmConfig();
+                    AlarmData config = new AlarmData();
                     //被监控对象的id
                     String monitoredObjectId = String.valueOf(map.get("monitored_object_id"));
                     //站点id
@@ -132,13 +132,13 @@ public class AlarmTransfer {
                         config.setMaxPower(maxPower);
                         config.setBusinessType(1);
                         config.setAlarmInstanceId(alarmInstanceId); //根据他去更新
-                        alarmConfigs.add(config);
+                        alarmData.add(config);
                     }else {
                         System.out.println("根据企业id [ " + companyId +" ] 查询站点为空; stationService：" + stationService);
                     }
                 }
                 //构建告警实例
-                buildAlarmInstance(alarmConfigs);
+                buildAlarmInstance(alarmData);
             }
         } catch (NumberFormatException e) {
             System.out.println("analyize env alarm data error; " + e.getMessage());
@@ -149,35 +149,35 @@ public class AlarmTransfer {
     /**
      * 构建告警实例
      *
-     * @param alarmConfigs
+     * @param alarmDatas
      */
-    private void buildAlarmInstance(List<AlarmConfig> alarmConfigs) {
+    private void buildAlarmInstance(List<AlarmData> alarmDatas) {
         System.out.println("------------   构建告警实例开始....  -----------------------");
         try {
-            if (!CollectionUtils.isEmpty(alarmConfigs)) {
-                for (AlarmConfig alarmConfig : alarmConfigs) {
+            if (!CollectionUtils.isEmpty(alarmDatas)) {
+                for (AlarmData alarmData : alarmDatas) {
                     StringBuilder equation = new StringBuilder();
                     StringBuilder equationDesc = new StringBuilder();
-                    List<String> deviceIds = alarmConfig.getDeviceIds(); //污染设备
-                    List<NormalConditionDto> normalConditionDtos = alarmConfig.getNormalConditions(); //治理设备
-                    Double maxPower = alarmConfig.getMaxPower(); //最大功率
+                    List<String> deviceIds = alarmData.getDeviceIds(); //污染设备
+                    List<NormalConditionDto> normalConditionDtos = alarmData.getNormalConditions(); //治理设备
+                    Double maxPower = alarmData.getMaxPower(); //最大功率
 
                     //构建公式
                     buildEquation(deviceIds, normalConditionDtos, equation, equationDesc, maxPower);
 
                     if (!StringUtils.isEmpty(equation.toString())) {
                         RuleInstance instance = new RuleInstance();
-                        instance.setStationId(alarmConfig.getStationId());
-                        instance.setDeviceId(alarmConfig.getMonitoredId());
+                        instance.setStationId(alarmData.getStationId());
+                        instance.setDeviceId(alarmData.getMonitoredId());
                         instance.setEquation(equation.toString());
                         instance.setEquationDesc(equationDesc.toString());
                         instance.setEvaluateUnit(1);
-                        instance.setEvaluateValue(60 * alarmConfig.getAlarmContinueTime());
-                        instance.setRuleInstanceId(alarmConfig.getAlarmInstanceId());
+                        instance.setEvaluateValue(60 * alarmData.getAlarmContinueTime());
+                        instance.setRuleInstanceId(alarmData.getAlarmInstanceId());
                         instance.setBusinessType(Byte.valueOf("1")); //环保的 businessType = 1
                         Result ruleInstance = ruleInstanceService.updateRuleInstanceByInstanceId(JSON.toJSONString(instance));
                         if (!StringUtils.isEmpty(ruleInstance.getCode())) {
-                            System.out.println("create alarm instance error;" + alarmConfig + " equation: " + equation.toString());
+                            System.out.println("create alarm instance error;" + alarmData + " equation: " + equation.toString());
                         }
                     }
                 }
